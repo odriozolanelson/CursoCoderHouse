@@ -1,0 +1,132 @@
+# 🛒 RetailPro – Análisis de Ventas con SQL
+
+## 📖 Descripción del proyecto
+
+RetailPro es un proyecto desarrollado como parte del curso de SQL de Coderhouse. El objetivo es diseñar una base de datos relacional para una empresa de ventas minoristas y realizar consultas que permitan obtener información útil para la toma de decisiones comerciales.
+
+Durante el proyecto se implementaron diferentes técnicas de SQL para:
+
+- Crear una base de datos relacional.
+- Definir tablas y relaciones mediante claves primarias y foráneas.
+- Consultar información utilizando distintos tipos de JOIN.
+- Realizar agregaciones con funciones de resumen.
+- Aplicar filtros mediante WHERE y HAVING.
+- Generar rankings e indicadores comerciales.
+- Obtener información ejecutiva mediante funciones de agregación y funciones ventana.
+
+---
+
+## 🗂️ Modelo de datos
+
+La base de datos está compuesta por las siguientes tablas:
+
+- **Clientes**
+- **Productos**
+- **Categorías**
+- **Ventas**
+
+Relaciones implementadas:
+
+- Un cliente puede realizar muchas ventas.
+- Un producto puede participar en muchas ventas.
+- Cada producto pertenece a una categoría.
+
+---
+
+## 🛠️ Herramientas utilizadas
+
+- Microsoft SQL Server
+- SQL Server Management Studio (SSMS)
+- Git
+- GitHub
+
+---
+
+## 📂 Contenido del repositorio
+
+```
+CursoCoderHouse/
+│
+├── Scripts SQL/
+│   ├── Creación de Base de Datos.sql
+│   ├── Inserción de Datos.sql
+│   ├── Consultas JOIN.sql
+│   ├── Consultas de Agregación.sql
+│   └── Consultas Analíticas.sql
+│
+├── README.md
+└── Documentación
+```
+
+*(Ajustá los nombres de las carpetas para que coincidan con los de tu repositorio.)*
+
+---
+
+## 🚀 Cómo ejecutar el proyecto
+
+1. Clonar este repositorio:
+
+```bash
+git clone https://github.com/odriozolanelson/CursoCoderHouse.git
+```
+
+2. Abrir **SQL Server Management Studio (SSMS)**.
+
+3. Ejecutar los scripts en el siguiente orden:
+
+1. Crear la base de datos.
+2. Crear las tablas.
+3. Insertar los datos.
+4. Ejecutar las consultas SQL de análisis.
+
+---
+
+## 📊 Consultas realizadas
+
+Entre las consultas desarrolladas se encuentran:
+
+- INNER JOIN
+- LEFT JOIN
+- GROUP BY
+- HAVING
+- ORDER BY
+- Funciones de agregación
+- Funciones ventana (OVER)
+- CASE
+- Ranking de productos
+- Clientes recurrentes
+- Resumen ejecutivo mensual
+
+---
+
+## 📈 Principales análisis
+
+El proyecto permite responder preguntas de negocio como:
+
+- ¿Cuál fue la facturación mensual?
+- ¿Cuál es el ticket promedio?
+- ¿Qué productos generan mayores ingresos?
+- ¿Qué clientes realizan compras recurrentes?
+- ¿Existen clientes o productos sin ventas?
+- ¿Qué meses estuvieron por encima o por debajo del promedio de facturación?
+
+---
+
+## 🎯 Objetivos de aprendizaje
+
+Este proyecto permitió aplicar conocimientos sobre:
+
+- Diseño de bases de datos relacionales.
+- Consultas SQL básicas e intermedias.
+- Relaciones entre tablas.
+- Agregaciones y análisis de datos.
+- Generación de indicadores comerciales.
+- Documentación de proyectos mediante GitHub.
+
+---
+
+## 👤 Autor
+
+**Nelson Odriozola**
+
+Proyecto realizado como parte del curso **SQL para Análisis de Datos** de **Coderhouse**.
